@@ -1,0 +1,11 @@
+<section>
+    <h2>Now Showing</h2>
+    <!-- Display movie cards or list here -->
+    <div class="movie-card" *ngFor="let movie of movies">
+      <img [src]="movie.posterUrl" alt="{{ movie.title }}">
+      <h3>{{ movie.title }}</h3>
+      <p>{{ movie.genre }}</p>
+      <a routerLink="/movies/{{ movie.id }}">View Details</a>
+    </div>
+  </section>
+  
