@@ -10,10 +10,11 @@ import { HomeComponentComponent } from './home-component/home-component.componen
 import { MoviesComponentComponent } from './movies-component/movies-component.component';
 import { OffersComponentComponent } from './offers-component/offers-component.component';
 import { ContactComponentComponent } from './contact-component/contact-component.component';
-import { MovieListComponent } from './movie-list/movie-list.component';
-import { MovieDetailsComponent } from './movie-details/movie-details.component';
-import { BookingFormComponent } from './booking-form/booking-form.component';
+;
 import { FooterComponent } from './footer/footer.component';
+import { EventsComponent } from './events/events.component';
+import { BannerComponent } from './banner/banner.component';
+import { FeaturedMoviesComponent } from './featured-movies/featured-movies.component';
 
 @NgModule({
   declarations: [
@@ -25,10 +26,11 @@ import { FooterComponent } from './footer/footer.component';
     MoviesComponentComponent,
     OffersComponentComponent,
     ContactComponentComponent,
-    MovieListComponent,
-    MovieDetailsComponent,
-    BookingFormComponent,
+ 
     FooterComponent,
+      EventsComponent,
+      BannerComponent,
+      FeaturedMoviesComponent,
   ],
   imports: [
     BrowserModule,

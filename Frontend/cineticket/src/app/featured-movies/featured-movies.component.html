@@ -1,0 +1,14 @@
+
+<h2>Featured Movies</h2>
+<section class="featured-movies">
+    
+    <!-- Display featured movie cards or list here -->
+    <div class="movie-card" *ngFor="let movie of featuredMovies">
+      <img [src]="movie.posterUrl" alt="{{ movie.title }}" width="30%">
+      <h3>{{ movie.title }}</h3>
+      <p>{{ movie.genre }}</p>
+      <!-- Add a link or button to view more details or book tickets -->
+      <a routerLink="/movies/{{ movie.id }}">View Details</a>
+    </div>
+  </section>
+  
